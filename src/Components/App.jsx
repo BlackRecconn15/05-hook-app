@@ -19,7 +19,7 @@ export const App = () => {
         { step === 1 && <FormularioStep1 hanleChange={(step) => changeStep(step)}></FormularioStep1>}
         { step === 2 && <FormularioStep2 hanleChange={(step) => changeStep(step)}></FormularioStep2>}
         { step === 3 && <FormularioStep3 hanleChange={(step) => changeStep(step)}></FormularioStep3>}
-        { step === 4 && <FinalStepForm></FinalStepForm>}
+        { step === 4 && <FinalStepForm hanleChange={(step) => changeStep(step)}></FinalStepForm>}
 
       </Contenido>
     </div>
